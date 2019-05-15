@@ -77,7 +77,7 @@ class Student < InteractiveRecord
 
   def self.find_by(hash)
     binding.pry
-  
+
 
   end
 
