@@ -56,6 +56,7 @@ class Student < InteractiveRecord
     end
 
     column_names.compact
+    binding.pry
 
   end
 
@@ -73,5 +74,7 @@ class Student < InteractiveRecord
     DB[:conn].execute(sql)
 
   end
+
+  
 
 end
