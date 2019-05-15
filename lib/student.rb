@@ -75,6 +75,6 @@ class Student < InteractiveRecord
 
   end
 
-  
+
 
 end
