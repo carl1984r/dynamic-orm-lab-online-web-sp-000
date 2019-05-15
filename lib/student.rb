@@ -75,6 +75,6 @@ class Student < InteractiveRecord
 
   end
 
-
+#pragma table_info('#{table_name}
 
 end
