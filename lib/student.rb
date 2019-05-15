@@ -39,7 +39,6 @@ class Student < InteractiveRecord
     end
 
     values.join(", ")
-    binding.pry
 
   end
 
