@@ -77,5 +77,5 @@ class InteractiveRecord
 
 
   end
-  
+
 end
