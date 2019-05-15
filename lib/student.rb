@@ -70,6 +70,7 @@ class Student < InteractiveRecord
   def self.find_by_name(name)
 
     sql = "SELECT * FROM #{self.table_name} WHERE name = '#{name}'"
+    binding.pry
     DB[:conn].execute(sql)
 
   end
